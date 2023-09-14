@@ -1,0 +1,99 @@
+.movies-container {
+  padding: 50px 5%;
+}
+
+.movies-container section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.movies-container section a {
+  display: flex;
+  align-items: center;
+  color: #be123c;
+  text-decoration: none;
+}
+.movies-container section a svg {
+  margin-left: 10px;
+}
+
+.movies {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.movies a {
+  position: relative;
+}
+.movies a .svg-box {
+  position: absolute;
+  font-size: 30px;
+  width: 100%;
+  top: 20px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movies a .svg-box span {
+  background-color: rgba(256, 256, 256, 0.5);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.movies a svg {
+  color: white;
+  background-color: rgba(256, 256, 256, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.movies a .img {
+  width: 100%;
+}
+
+.movies a .ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.movies a .ratings span {
+  display: flex;
+  align-items: center;
+}
+
+.movies a .ratings span small {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .movies {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movies {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* @media screen and (max-width: 400px) {
+  .movies {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */

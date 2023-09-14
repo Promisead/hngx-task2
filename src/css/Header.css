@@ -1,0 +1,74 @@
+.header {
+  background-image: url("../images/Poster.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 5%;
+  color: white;
+}
+
+.text-box {
+  margin-top: 50px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header .ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin: 20px 0px;
+}
+
+.header .ratings span {
+  display: flex;
+  align-items: center;
+}
+
+.header .ratings span small {
+  margin-left: 10px;
+}
+
+.header p {
+  width: 350px;
+  line-height: 2rem;
+}
+
+.header a {
+  background-color: #be123c;
+  color: whtie;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+}
+.header a svg {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    width: 300px;
+    margin: auto;
+  }
+  .header a {
+    margin: auto;
+    width: 150px;
+    margin-top: 20px;
+  }
+}

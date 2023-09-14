@@ -1,0 +1,39 @@
+footer {
+  text-align: center;
+  padding: 70px;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin: auto;
+}
+
+footer svg {
+  font-size: 30px;
+  color: black;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+    padding: 30px;
+  }
+  footer ul {
+    display: block;
+    width: auto;
+  }
+  footer ul li {
+    margin-bottom: 10px;
+  }
+}
